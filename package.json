@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-ext-base-ndarray-snansumors",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Compute the sum of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values and using ordinary recursive summation.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/blas-ext-base-snansumors": "^0.2.2",
+    "@stdlib/blas-ext-base-snansumors": "^0.3.0",
     "@stdlib/ndarray-base-data-buffer": "^0.2.2",
     "@stdlib/ndarray-base-numel-dimension": "^0.3.2",
     "@stdlib/ndarray-base-offset": "^0.2.2",
@@ -95,7 +95,6 @@
     "single",
     "float32array"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
